@@ -69,7 +69,7 @@ print(classification_report(y_test, y_pred))
 
 
 #making the predition of this person would be alive or not
-user = pd.DataFrame({'Pclass': 2,	'Sex':1, 'Age':22, 'SibSp':0, 'Parch':1, 'Fare':20.500}, index=[0]) #agora deu merda
+user = pd.DataFrame({'Pclass': 2,	'Sex':1, 'Age':22, 'SibSp':0, 'Parch':1, 'Fare':20.500}, index=[0]) 
 user_prob = model.predict_proba(user)
 prob = (user_prob[0][1])*100
 print(prob)
