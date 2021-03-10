@@ -28,3 +28,5 @@ That API was made to be consumed by a simple website page who takes the user inf
 Link to the website code:
 
 https://github.com/Breno-Valle/titanic_website
+
+To run this code use python api.py
